@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.top-pane {
+    height: 10%;
+    background-color: #f1f1f1;
+    border-bottom: 1px solid #ddd;
+}
+
+.main-content {
+    display: flex;
+    flex: 1;
+}
+
+.left-pane {
+    width: 20%;
+    background-color: #f9f9f9;
+    border-right: 1px solid #ddd;
+}
+
+.right-pane {
+    flex: 1;
+    padding: 10px;
+}
