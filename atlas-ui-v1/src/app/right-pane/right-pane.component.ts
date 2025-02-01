@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import * as L from 'leaflet';
 
 @Component({
+  standalone: true,
   selector: 'app-right-pane',
   templateUrl: './right-pane.component.html',
   styleUrls: ['./right-pane.component.css']
