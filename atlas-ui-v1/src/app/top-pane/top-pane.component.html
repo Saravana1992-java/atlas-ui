@@ -3,6 +3,10 @@
         <!-- User Login Information Here -->
         Welcome, Garvik Vinay!
     </div>
+    <div>
+        <p *ngIf="lat && lng">Logged in from {{address}}</p>
+        <p *ngIf="!lat && !lng">Locating...</p>
+    </div>
     <div class="search-bar">
         <input type="text" placeholder="Search..." />
     </div>

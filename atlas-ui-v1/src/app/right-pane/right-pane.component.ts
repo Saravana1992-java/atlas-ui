@@ -9,7 +9,7 @@ import * as L from 'leaflet';
 })
 export class RightPaneComponent implements OnInit {
   ngOnInit(): void {
-    const map = L.map('map').setView([51.505, -0.09], 13);
+    const map = L.map('map').setView([9.512, 77.634], 13);
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       attribution: '© OpenStreetMap contributors'
     }).addTo(map);
